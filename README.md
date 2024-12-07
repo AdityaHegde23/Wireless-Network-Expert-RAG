@@ -23,3 +23,5 @@ This project involves:
 ---
 
 ## Setup Instructions
+ - **docker build -t specinsight .**
+ - **docker run --network=host -it -p 7860:7860 specinsight**
