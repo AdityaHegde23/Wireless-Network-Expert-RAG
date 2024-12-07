@@ -9,4 +9,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 7860
 
-CMD ["python", "source/app.py"]
+CMD ["python3", "source/app.py"]

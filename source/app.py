@@ -2,7 +2,6 @@ import random
 import gradio as gr
 
 def spec_insight(message, history):
-    print(message)
     return "Wireless network"
 
 custom_css = "./custom_chat.css"
@@ -15,4 +14,5 @@ app = gr.ChatInterface(
     css=custom_css
 )
 if __name__ == "__main__":
+    print("Hello")
     app.launch()
