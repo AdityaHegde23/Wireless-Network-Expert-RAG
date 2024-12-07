@@ -1,0 +1,104 @@
+/* Dark mode body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #1a1a2e, #16213e);
+    margin: 0;
+    padding: 0;
+    color: #e0e0e0;
+}
+
+/* Container styling for the chat interface */
+.gradio-container {
+    max-width: 700px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    background-color: #1f1f2f;
+    border: 1px solid #2a2a3d;
+    overflow: hidden;
+}
+
+/* Chat box styling */
+.gr-chatbox {
+    background-color: #28293e;
+    border: 1px solid #3a3a4f;
+    border-radius: 5px;
+    padding: 10px;
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+/* Chat messages (user and AI) */
+.gr-chatbox .gr-message {
+    background-color: #3d3e56;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    color: #d6d6d6;
+}
+
+.gr-chatbox .gr-message-user {
+    background-color: #444566;
+    color: #b0b0ff;
+}
+
+.gr-chatbox .gr-message-ai {
+    background-color: #2f3050;
+    color: #a0ffa0;
+}
+
+/* Input field styling */
+.gr-input {
+    border: 1px solid #4a4a6f;
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #2a2a3f;
+    color: #ffffff;
+}
+
+/* Button styling */
+button {
+    background-color: #0078ff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056d4;
+}
+
+/* Title styling */
+h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* Scrollbar customization */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444455;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #666677;
+}
+
+::-webkit-scrollbar-track {
+    background: #1f1f2f;
+}
